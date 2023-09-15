@@ -26,30 +26,29 @@ section {
   height: 100vh;
 }
 .hero1-2 {
-    background-color: #1d2429;
-    background-image: url(../../src/assets/images/bg6.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-  .hero1-4 {
-    background-color: #1d2429;
-    background-image: url(../../src/assets/images/bg5.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-  .hero1-3 {
-    background-color: #1d2429;
-    background-image: url(../../src/assets/images/bg7.jpg);
-    background-position: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  }
-
+  background-color: #1d2429;
+  background-image: url(../../src/assets/images/bg6.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero1-4 {
+  background-color: #1d2429;
+  background-image: url(../../src/assets/images/bg5.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero1-3 {
+  background-color: #1d2429;
+  background-image: url(../../src/assets/images/bg5.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 
 .hero2 {
   color: white;
@@ -60,7 +59,13 @@ section {
 }
 .hero-w {
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(132deg, #8a7dfd, #fc6e32);
+  /* background-image: linear-gradient(132deg, #8a7dfd, #fc6e32); */
+  /* background: rgb(69, 75, 27); */
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 81, 47, 1) 30%,
+    rgba(221, 36, 118, 1) 100%
+  );
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -81,7 +86,11 @@ section {
 .button {
   width: 250px;
   height: 70px;
-  background-color: #4b39ef;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 81, 47, 1) 30%,
+    rgba(221, 36, 118, 1) 100%
+  );
   border: 0;
   color: white;
   border-radius: 10px;
@@ -98,12 +107,15 @@ section {
 }
 @media screen and (min-width: 300px) and (max-width: 500px) {
   .hero2 {
-    font-size: 13vw;
+    font-size: 10vw;
     font-weight: 700;
     padding-top: 19vh;
   }
+  .hero-w {
+    font-size: 9vw;
+  }
   .hero-w2 {
-    font-size: 6vw;
+    font-size: 4vw;
 
     font-weight: 500;
   }
