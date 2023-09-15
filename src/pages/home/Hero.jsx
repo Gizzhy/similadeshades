@@ -13,7 +13,7 @@ const Hero = () => {
             <div className="container hero2">
               <span className="hero-w">Elevate Your Fashion Game </span>
               with Our Stunning Shades!
-              <p className="hero-w2">
+              <p className="hero-w2" data-aos="fade">
                 From Timeless Classics to the Latest Trends, Find the Perfect
                 Pair to Define Your Look. Unleash Your Inner Fashion Icon with
                 us.
@@ -28,9 +28,11 @@ const Hero = () => {
             <div className="container hero2">
               <span className="hero-w">Shade the Style: </span>
               Elevate Your Look with Every Pair!
-              <p className="hero-w2">
-                Discover the Perfect Blend of Style and Sun Safety
-              </p>
+              <div className="lolo" data-aos="fade">
+                <p className="hero-w2">
+                  Discover the Perfect Blend of Style and Sun Safety
+                </p>
+              </div>
               <br />
             </div>
           </div>

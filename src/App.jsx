@@ -1,15 +1,15 @@
 import "../src/styles.css/app.css";
 import Home from "./pages/home/Home";
-// import Animate from "../src/utils/Animate";
+import Animate from "../src/Utils/Animate";
 // import Links from "./components/Links";
 // import About from "./pages/about/About";
 function App() {
   return (
     <>
-      {/* <Animate> */}
+      <Animate>
         {/* <Links /> */}
         <Home />
-      {/* </Animate> */}
+      </Animate>
     </>
   );
 }
