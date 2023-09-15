@@ -1,0 +1,114 @@
+.scroll-container {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  position: relative;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: center;
+}
+
+.hero1 {
+  background-color: #1d2429;
+  background-image: url(../../src/assets/images/bg3.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero1-1 {
+  background-color: #1d2429;
+  background-image: url(../../src/assets/images/bg4.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.hero1-2 {
+    background-color: #1d2429;
+    background-image: url(../../src/assets/images/bg6.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .hero1-4 {
+    background-color: #1d2429;
+    background-image: url(../../src/assets/images/bg5.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .hero1-3 {
+    background-color: #1d2429;
+    background-image: url(../../src/assets/images/bg7.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+
+.hero2 {
+  color: white;
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 150px;
+}
+.hero-w {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(132deg, #8a7dfd, #fc6e32);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.hero-w2 {
+  -webkit-text-fill-color: inherit;
+  background-clip: border-box;
+  font-size: 24px;
+  line-height: 30px;
+  /* color: #95a1ac; */
+  font-weight: 500;
+}
+.button-a {
+  position: fixed;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  width: 250px;
+  height: 70px;
+  background-color: #4b39ef;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.button:hover {
+  background-color: #2c2288;
+  border: 2px #695af3 solid;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 100px) and (max-width: 299px) {
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .hero2 {
+    font-size: 13vw;
+    font-weight: 700;
+    padding-top: 19vh;
+  }
+  .hero-w2 {
+    font-size: 6vw;
+
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 850px) {
+}
+@media screen and (min-width: 851px) and (max-width: 1200px) {
+}
